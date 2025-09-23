@@ -1,0 +1,1 @@
+<?php echo apply_filters( 'vaathi_footer_get_template_part', vaathi_get_template_part( 'footer', 'templates/footer', '', array() ) ); ?>

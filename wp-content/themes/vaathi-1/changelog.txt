@@ -1,0 +1,18 @@
+*** Vaathi WordPress Theme Changelog ***
+
+Version 1.0.2
+
+    * Added: Global Single Product Template feature
+    * Notice error fixed
+    * Compatible with latest Elementor Version
+    * Compatible with latest WordPress Version
+
+Version 1.0.1
+
+    * Fixed: Demo Import Issue.
+
+Version 1.0.0
+
+    * First release!
+    * Demo content added
+    * WPML config file updated 

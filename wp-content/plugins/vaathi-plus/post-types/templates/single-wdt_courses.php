@@ -1,0 +1,25 @@
+<?php get_header(); ?>
+
+<!-- Primary -->
+<section id="primary" class="<?php echo esc_attr( vaathi_get_primary_classes() ); ?>">
+<?php
+    do_action( 'vaathi_before_single_page_content_wrap' );
+
+    if( have_posts() ) {
+        while( have_posts() ) {
+            the_post();?>
+            <!-- #post-<?php the_ID(); ?> -->
+            <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+                <?php
+                    do_action( 'vaathi_before_single_page_content' );
+                    the_content();
+                    $course_duration = get_post_meta( get_the_ID(), 'course_duration', true );
+                    do_action( 'vaathi_after_single_page_content' );?>
+            </div><!-- #post-<?php the_ID(); ?> --><?php
+        }
+    }
+
+    do_action( 'vaathi_after_single_page_content_wrap' );?>
+</section><!-- Primary End -->
+
+<?php get_footer(); ?>

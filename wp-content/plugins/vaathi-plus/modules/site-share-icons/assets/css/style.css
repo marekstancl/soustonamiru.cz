@@ -1,0 +1,26 @@
+/*--------------------------------------------------------------
+    Site follow us
+--------------------------------------------------------------*/
+
+.wdt_follow_us_icons { position: fixed; top: 50%; left: 15px; right: auto; bottom: 50%; margin: auto;z-index: 1; }
+.wdt_follow_us_icons .wdt_follow_us { will-change: transform;  display: flex; transform: rotate(-180deg); width: 33px; 
+    mix-blend-mode: exclusion; z-index: 999; position: relative;flex-direction: column;align-items: center;background-color: var(--wdtSecondaryColor);padding: 10px;color: var(--wdtAccentTxtColor);}
+.wdt_follow_us_icons .wdt_follow_us .wdt-follow-icon { display: flex; flex-direction: column; flex-wrap: nowrap; align-items: center; }
+.wdt_follow_us_icons .wdt_follow_us .wdt-follow-icon > a { width: 100%; padding: 5px 0; color: inherit; mix-blend-mode: inherit;display: grid;place-items: center; }
+/* .wdt_follow_us_icons .wdt_follow_us .wdt-follow-icon > a>span {transition: var(--wdtBaseTransition);}
+.wdt_follow_us_icons .wdt_follow_us .wdt-follow-icon > a:hover >span {transform:rotate(90deg);-webkit-transform:rotate(90deg);} */
+.wdt_follow_us_icons .wdt_follow_us .wdt-follow-icon > a:hover { color: var(--wdtLinkHoverColor); }
+.wdt_follow_us_icons .wdt_follow_us span,
+.wdt_follow_us_icons .wdt_follow_us span a { display: block; font-size: calc(var(--wdtFontSize_H6) - 2px);margin: 5px 0; 
+    font-weight: var(--wdtFontWeight_Alt); writing-mode: vertical-lr;  color: inherit; mix-blend-mode: inherit; margin-bottom: 5px; }
+
+/*--------------------------------------------------------------
+    Responsive
+--------------------------------------------------------------*/
+
+@media only screen and (max-width: 1540px) { 
+    .wdt_follow_us_icons { left: 5px; } }
+
+@media only screen and (max-width: 1024px) {
+.wdt_follow_us_icons { left: 0px; } 
+.wdt_follow_us_icons .wdt_follow_us span, .wdt_follow_us_icons .wdt_follow_us span a { font-size: var(--wdtFontSize_Base); } }

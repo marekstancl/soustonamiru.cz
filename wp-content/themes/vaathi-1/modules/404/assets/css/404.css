@@ -1,0 +1,118 @@
+/*--------------------------------------------------------------
+    404 Error / Not-found Page
+--------------------------------------------------------------*/
+
+	.error404, .error404 > .wrapper { width:100%; height:100%; }
+	.error404 > .wrapper { display: flex; padding: 50px 0; }
+
+	.center-content-wrapper { display: inline-flex; align-items: center; width: 100%; height: 100%; }
+
+	.error404 .type2 .center-content-wrapper,
+	.error404 .type2 .error-box-inner * { text-align: left; }
+
+	.center-content-wrapper .center-content { 
+		display: block;
+		width: 100%;
+		max-width: 600px;
+		margin-right: auto;
+		height: auto;
+	}
+
+	/* .error404 h1, .error404 h2, .error404 h3, .error404 h4, .error404 h5, .error404 h6 { line-height: var(--wdtLineHeightAlt); } */
+	/* .error404 h2 { font-size: 170px; font-weight: bold; } */
+
+	.error404 h3 { 
+		font-size: clamp(3.75rem, 2.75rem + 5vw, 8.75rem); /*140px - 60px*/
+		font-weight: var(--wdtFontWeight_Alt);
+		letter-spacing: normal;
+		text-transform: capitalize;
+		line-height: 1;
+		margin: 0 0 6px;
+		font-family: var(--wdtFontTypo_Ext);
+		color: rgb(var(--wdtHeadAltColorRgb), 0.5);
+	}
+
+	.error404 .type2.wdt-dark-bg h3 {
+		color: rgb(var(--wdtAccentTxtColorRgb), 0.5);
+	}
+
+	.error404 .type2 p {
+		margin-bottom: 20px;
+	}
+
+	.error404 h4 { 
+		font-size: clamp(2.5rem, 2.25rem + 1.25vw, 3.75rem); /* Min-40 & Max-60 */
+		font-weight: var(--wdtFontWeight_Alt); 
+		text-transform: capitalize; 
+		margin-top: 0;
+		margin-bottom: 20px; 
+		width: 100%;
+    	max-width: 600px;
+	}
+
+	.error404 .wdt-button, .error404 .wdt-button.type2 { 
+		padding: var(--wdtPadding_Btn); 
+		display: inline-block; 
+		letter-spacing: normal; 
+	}
+	/* .error404 .type2 #wdt-style-picker ul li::before, .error404 #wdt-style-picker ul li:before { content:none; }
+	.error404 .type2 #wdt-style-picker h3, .error404 #wdt-style-picker h3 { letter-spacing:0; text-transform:capitalize; }
+	.error404 #wdt-style-picker h2 { top:0; }
+
+	.error-box-inner * { text-align: center; }
+
+	.error404 .menu-links { margin:40px 0; }
+	.error404 .menu-links li { display:inline-block; text-transform:uppercase; font-size:16px; padding:0; margin:0 2px 5px; }
+	.error404 .menu-links li a { padding:7px 20px; display:inline-block; }
+
+	.error404 #searchform .wdt-search-icon { display:none; }
+	.error404 #searchform { display: inline-block; margin: 0 auto; position: relative; width: 60%; }
+	.error404 #searchform input[type="text"], .error404 #searchform input[type="submit"] { height:52px; }
+    .error404 #searchform input[type="submit"] { border-radius: 0; padding: 13px 20px 13px; position: absolute; right: 0; top: 0; margin-top:0; } */
+
+    .error404 .container { height:100%; text-align:center; }
+
+
+
+/*--------------------------------------------------------------
+    Default Colors
+--------------------------------------------------------------*/
+
+	/* .error404 .wdt-dark-bg, .error404 .menu-links li:hover a { background: var(--wdtPrimaryColor); }
+	.error404 .menu-links li a { background:rgba(var(--wdtHeadAltColorRgb),0.05); } */
+
+	.error404 .wdt-button, .error404 .wdt-button.type2 { color: var(--wdtAccentTxtColor); }
+
+	.error404 .wdt-button { background-color: var(--wdtPrimaryColor); }
+	.error404 .wdt-button:hover { background-color: var(--wdtSecondaryColor); }
+
+	.error404 .wdt-dark-bg .wdt-button:hover { 
+		background-color: var(--wdtAccentTxtColor); color: var(--wdtHeadAltColor); 
+		box-shadow: inset 0 0 0 2px rgba(var(--wdtHeadAltColorRgb), 0.2);
+		-webkit-box-shadow: inset 0 0 0 2px rgba(var(--wdtHeadAltColorRgb), 0.2);
+	}
+
+	/* .error404 .menu-links li a { color: var(--wdtHeadAltColor); } */
+
+
+
+/*--------------------------------------------------------------
+    Accents
+--------------------------------------------------------------*/
+
+	/* .error404 h2 { color: var(--wdtPrimaryColor); } */
+
+
+
+/*--------------------------------------------------------------
+ Responsive
+--------------------------------------------------------------*/
+
+/* Common Styles for the devices below 479px width */
+/* @media only screen and (max-width: 479px) {
+
+	.error404 h2 { font-size: var(--wdtFontSize_H1); }
+	.error404 h3 { font-size: var(--wdtFontSize_H2); }
+	.error404 h4 { font-size: var(--wdtFontSize_H3); }
+
+} */

@@ -16,8 +16,13 @@
 # ... s výjimkou našich vlastních.
 # Tento přístup zajišťuje, že omylem nepřidáme do Gitu pluginy třetích stran.
 /wp-content/plugins/*
+!/wp-content/plugins/vaathi-plus/
+!/wp-content/plugins/vaathi-shop/
+!/wp-content/plugins/.gitkeep
 
 /wp-content/themes/*
+!/wp-content/themes/vaathi-1/
+!/wp-content/themes/.gitkeep
 
 # =================================================================
 # Ignorovat uživatelský obsah a generované soubory
