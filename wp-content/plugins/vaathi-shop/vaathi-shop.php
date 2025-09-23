@@ -93,7 +93,7 @@ final class Vaathi_Shop {
 			// Setup Constants (non-translatable ones)
 			$this->vaathi_shop_setup_non_translatable_constants();
 			// Setup translatable constants later
-			add_action('init', array($this, 'veethi_shop_setup_translatable_constants'), 11);
+			add_action('init', array($this, 'vaathi_shop_setup_translatable_constants'), 11);
 
 			// Load Modules & Helper
 				$this->vaathi_shop_load_modules();
