@@ -1,0 +1,52 @@
+# =================================================================
+# WordPress Core
+# =================================================================
+# Ignorujeme celé jádro WordPressu. Není to náš kód.
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/index.php
+/xmlrpc.php
+/license.txt
+/readme.html
+
+# =================================================================
+# Ignorovat všechny šablony a pluginy...
+# =================================================================
+# ... s výjimkou našich vlastních.
+# Tento přístup zajišťuje, že omylem nepřidáme do Gitu pluginy třetích stran.
+/wp-content/plugins/*
+
+/wp-content/themes/*
+
+# =================================================================
+# Ignorovat uživatelský obsah a generované soubory
+# =================================================================
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/backup-db/
+/wp-content/advanced-cache.php
+/wp-content/wp-cache-config.php
+/wp-content/cache/
+/wp-content/backups/
+
+# =================================================================
+# Konfigurace
+# =================================================================
+# wp-config.php obsahuje citlivé údaje a je specifický pro každé prostředí.
+wp-config.php
+
+# =================================================================
+# Systémové a dočasné soubory
+# =================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*~
